@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyEphemeralApp());
 
 class MyEphemeralApp extends StatelessWidget {
-  const MyEphemeralApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,8 +15,6 @@ class MyEphemeralApp extends StatelessWidget {
 }
 
 class CounterWidget extends StatefulWidget {
-  const CounterWidget({super.key});
-
   @override
   _CounterWidgetState createState() => _CounterWidgetState();
 }
